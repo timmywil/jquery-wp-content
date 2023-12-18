@@ -1,3 +1,7 @@
+<?php
+	header( 'Cross-Origin-Embedder-Policy: require-corp' );
+	header( 'Cross-Origin-Opener-Policy: same-origin' );
+?>
 <!doctype html>
 <html class="no-js" <?php language_attributes(); ?>>
 <head>
